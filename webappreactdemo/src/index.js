@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import SearchMovies from "./components/searchMovies/searchMovies.js";
 //import App from './App';
 //import * as serviceWorker from './serviceWorker';
 
 class Main extends React.Component {
   render() {
     return (
-        <h1> My First React Application.</h1>
+        <div className="container">
+            <h1 className="title">Search Any Movie</h1>
+            <SearchMovies/>
+        </div>
     );
   };
 }
