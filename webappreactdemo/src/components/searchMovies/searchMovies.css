@@ -47,15 +47,33 @@
 }
 
 .movie--title {
-    margin-bottom: 0.5rem;
-    font-size: 3.2rem;
+    font-size: 2.0rem;
+    text-transform: uppercase;
+    padding-left: 10px;
+    vertical-align: top;
+    padding-top: 10px;
 }
 
 .movie--image {
     margin: 0 auto;
-    display: block
+    display: inline-block;
+}
+.movie--desc
+{
+    color: #000;
+    font-size: 1.0rem;
+    line-height: 1.0rem;
 }
 
+.movie p{
+    font-size: 1.0rem;
+}
+.movie small
+{
+    color:#000;
+    font-weight: bold;
+    vertical-align: text-bottom;
+}
 @media (min-width: 786px){
     .form{
         grid-template-columns: auto 1fr auto;

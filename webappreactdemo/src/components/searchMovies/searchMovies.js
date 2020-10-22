@@ -3,24 +3,24 @@ import MovieCard from './movieCard.js';
 import './searchMovies.css'
 
 export default function SearchMovies(){
-    const [query, setQuery] = useState('');
+    // React Hooks
+    const [query, setQuery] = useState(''); 
     const [movies , setMovies] = useState([]);
 
-const searchMovie = async(e)=> {
-    e.preventDefault();
-    
-    const url =`https://api.themoviedb.org/3/search/movie?api_key=f1e6ac5a0786fdea14b1765125f5c99a&language=en-US&query=${query}&page=1&include_adult=false`;
+    const searchMovie = async(e)=> {
+        e.preventDefault();    
+        const url =`https://api.themoviedb.org/3/search/movie?api_key=f1e6ac5a0786fdea14b1765125f5c99a&language=en-US&query=${query}&page=1&include_adult=false`;
 
-    try{
-       const rawResponse = await fetch(url);
-       const jsonData = await rawResponse.json();
-       console.log(jsonData);
-       setMovies(jsonData.results);
-    }catch(err)
-    {
-        console.log(err);
+        try{
+            // Using Fetch API to call external API to access the data.
+            const rawResponse = await fetch(url);
+            const jsonData = await rawResponse.json();
+           setMovies(jsonData.results);
+        }catch(err)
+        {
+            console.log(err);
+        }
     }
-}
     return (
         <>
             <form className="form" onSubmit={searchMovie}>
