@@ -42,6 +42,9 @@ CDN React Url:https://reactjs.org/docs/cdn-links.html
 
 **Command:** npm start
 
+6. Once you finished your application and ready to deploy then you have to run the following command and it builds the file which is for deployment code.
+**Command:** npm run build
+
 ** List of React Learning resourcces **
 
 **React**
