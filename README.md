@@ -19,7 +19,6 @@ CDN React Url:https://reactjs.org/docs/cdn-links.html
 1. First way is to use CDN Directly.
 
 <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 
 2.Install through npm for this install **nodejs**.
@@ -45,7 +44,7 @@ CDN React Url:https://reactjs.org/docs/cdn-links.html
 6. Once you finished your application and ready to deploy then you have to run the following command and it builds the file which is for deployment code.
 **Command:** npm run build
 
-** List of React Learning resourcces **
+**List of React and other useful Learning resourcces**
 
 **React**
 
