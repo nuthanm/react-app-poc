@@ -26,3 +26,12 @@ Setting up React in your local machine in many ways.
   
 Note: To clone this repository then install GIT in your local machine.
 I used 2.28.0 and 64 Bit  
+
+3. Install node modules before your run the application
+**Command:** npm install
+
+4. Build the solution after install node modules
+**Command:** npm build
+
+5. Start your react application
+**Command:** npm start
