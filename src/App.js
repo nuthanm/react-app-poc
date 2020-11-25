@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Debugging React.js using Visual Studio Code Editor.
         </a>
       </header>
     </div>
