@@ -46,11 +46,14 @@ Here we use this version 2.28.0 and 64 Bit
 
 ### **List of React and other useful Learning resourcces**
 
-### **React Resources**
+## **React Resources**
 
 **Youtube Resources**
+
 [KnowledgeHut upGrad](https://www.youtube.com/watch?v=aq-fCtg_gG4)
+
 [TeluguSkillhub react projects playlist](https://www.youtube.com/playlist?list=PLWnZ0qt0PImVah3_dz1ZXjaONqbwWTgDT)
+
 
 [Scrimba Resources]
 (https://scrimba.com/learn/learnreact)
