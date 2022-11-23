@@ -5,6 +5,7 @@ import ImageCard from './ImageCard';
 const Home = () => {
     const [search, setSearch] = React.useState('');
     const [data, setData] = React.useState([]);
+
     const handler = e => {
         setSearch(e.target.value);
     }
@@ -17,6 +18,7 @@ const Home = () => {
   return (
     <>
     <div className='header'>
+        <span>Place to see real time crypto currencies rates.</span>
         <input value={search} onChange={handler} placeholder='Search for a crypto'/>
     </div>
 
@@ -34,7 +36,7 @@ const Home = () => {
                     key = {crypto.id}
                 />
             )}
-        </div>
+        </div>        
     }
     </>
   )

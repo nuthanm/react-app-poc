@@ -6,9 +6,9 @@ const ImageCard = (props) => {
     <div>
         <img src={props.url} alt = {props.name} />
         <p style={{"color":"orange", "font-weight":"bold"}}> {props.name} </p>
-        <p>Rank: {props.rank}</p>
-        <p> Market Capital: {props.marketCap}  </p>
-        <p> Price: {props.price}</p>        
+        <p><span>Rank:</span> {props.rank}</p>
+        <p> <span>Market Capital: </span>{props.marketCap}  </p>
+        <p> <span>Price: </span>{props.price}</p>        
     </div>
     </>
   )

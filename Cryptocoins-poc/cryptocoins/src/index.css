@@ -11,16 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+span{
+  position: absolute;
+  color: white;
+  padding-top: 26px;
+  text-align: center;
+}
 
 .header {
   height: 150px;
   width: 100%;
-  background-color: black;
+  background-color: #0B2840;
   text-align: center;
 }
 
 input {
-margin-top: 50px;
+margin-top: 55px;
 padding: 10px;
 border-radius: 5px;
 font-size: medium;
@@ -38,7 +44,7 @@ outline: none;
 }
 
 .grid-container > div {
-background-color: black;
+background-color: #132F70;
 margin: 10px;
 padding-bottom: 10px;
 }
@@ -51,4 +57,19 @@ img {
 p{
   color: white;
   text-align: center;
+}
+
+p  > span {
+  font-weight: bold;
+  position: inherit;
+}
+.footer
+{
+  height: 10%;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 8px;
+  color: white;
+  background-color: #0B2840;
 }
