@@ -17,6 +17,18 @@ The following files and libraries required to create our react app,
 4. Root component - main component 
 5. react-hot-loader => this will apply changes immediately in the browser
 
+**Process:**
+1. Create a folder
+2. pointed to this folder in command prompt and run this command: npm init -y => Creates package file
+    - This creates package.json file
+3. **[Optional]** To push this change in git => git init => initiatilze the repository 
+4. Create a public folder => All public files accessible
+   4.1: Create a index.html file
+   4.2: Add sample code in it
+   ![image](https://user-images.githubusercontent.com/29816449/203939020-5e2ae761-916d-48b0-a493-210cdbae3c92.png)
+
+6. Create a src folder => actual react code should be place it here
+
 **Note:** This repository is never ending one and adds lots of functionality and this helps others to learn it from this repository.
 
 ## **Multiple ways to setup react application,**
