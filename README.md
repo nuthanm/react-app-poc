@@ -7,6 +7,16 @@ To work with react we need react library,
 
 [CDN React Url](https://reactjs.org/docs/cdn-links.html)
 
+Here, We are going to create a react app without using npm as we all know if we use npm it creates all the necessary files. But we should know which files are mainly required to start our react app.
+
+The following files and libraries required to create our react app,
+
+1. index.html - main file to render the html
+2. Support for ES6 - modern way of writing javasript
+3. webpack - packing all our css files
+4. Root component - main component 
+5. react-hot-loader => this will apply changes immediately in the browser
+
 **Note:** This repository is never ending one and adds lots of functionality and this helps others to learn it from this repository.
 
 ## **Multiple ways to setup react application,**
@@ -20,8 +30,8 @@ To work with react we need react library,
 ### **2.Install through npm for this install nodejs**
 
 **syntax and command:** 
-**Option 1:**  npm init react-app <appName>
-**Option 2:** npx create-react-app <appName>
+- **Option 1:**  npm init react-app <appName>
+- **Option 2:** npx create-react-app <appName>
 
 **Example:**  npm init react-app webApp
 
@@ -44,8 +54,6 @@ Here we use this version 2.28.0 and 64 Bit
 
 **Command:** npm run build
 
-### **List of React and other useful Learning resourcces**
-
 ## **React Resources**
 
 **Youtube Resources**
@@ -55,10 +63,11 @@ Here we use this version 2.28.0 and 64 Bit
 [TeluguSkillhub react projects playlist](https://www.youtube.com/playlist?list=PLWnZ0qt0PImVah3_dz1ZXjaONqbwWTgDT)
 
 
-[Scrimba Resources]
-(https://scrimba.com/learn/learnreact)
-(https://scrimba.com/learn/reactmovie)
-(https://scrimba.com/learn/reactgame)
+**Scrimba Resources**
+- React learning and sample project
+    - (https://scrimba.com/learn/learnreact)
+    - (https://scrimba.com/learn/reactmovie)
+    - (https://scrimba.com/learn/reactgame)
 
 [**ES6+ Resource**]
 (https://scrimba.com/learn/introtoes6)
